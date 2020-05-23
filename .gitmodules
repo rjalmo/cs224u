@@ -1,0 +1,6 @@
+[submodule "refs/WikiSQL"]
+	path = refs/WikiSQL
+	url = https://github.com/salesforce/WikiSQL.git
+[submodule "refs/NL2SQL-RULE"]
+	path = refs/NL2SQL-RULE
+	url = https://github.com/guotong1988/NL2SQL-RULE.git
