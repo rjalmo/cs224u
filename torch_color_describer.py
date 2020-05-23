@@ -320,7 +320,7 @@ class ContextualColorDescriber(TorchModelBase):
         self.unk_index = self.vocab.index(UNK_SYMBOL)
         self.params += ['embed_dim', 'embedding']
         # The base class has this attribute, but this model doesn't,
-        # so we remove it to avoid misleading people:
+        # so we remove it to avoid misleadipng eople:
         delattr(self, 'hidden_activation')
         self.params.remove('hidden_activation')
 
